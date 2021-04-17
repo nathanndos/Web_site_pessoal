@@ -1,0 +1,116 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(32, 44, 54);
+    color: rgb(228, 228, 228);
+}
+#cabecalho{
+    background: rgb(10, 16, 24);
+    text-align: center;
+    padding: 5%;
+    margin: -1%;
+    margin-bottom: 20px;
+    font-size: 20px;
+ 
+}
+
+footer{
+    background: rgb(10, 16, 24);
+    text-align: center;
+    padding: 3%;
+    margin-top:50px;
+}
+#tituloPrincipal{
+
+    margin-bottom: 50px;
+    
+}
+#menuPrincipal{
+   
+}
+.navClassMain{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin:10px ;
+    color: rgb(207, 207, 207);
+    background-color:rgb(10, 16, 24) ;
+    transition-delay: 70ms;
+    position: relative;
+    top:0;
+    border-radius: 25% 5% 25% 5%;
+
+}
+.navClassMain:hover{
+    background-color:rgb(106, 130, 151);
+    top:2px;
+}
+
+#divMaster{
+    width: 100%;
+}
+
+#apr1,#apr2{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1%;
+    width: 80%;
+    display: flex;
+}
+
+#apr1{
+
+}
+
+#foto1{
+    width: 25%;
+    height: 70%;
+    border-radius: 5%;
+}
+
+#texto1{
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#apr2{
+    margin-top: 2%;
+
+}
+#sub1{
+    text-align: center;
+    font-size: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+}
+#sub2{
+    text-align: center;
+}
+#lista1{
+    width: 40%;
+}
+#foto2{
+    margin-left: 5%;
+   margin-top: 1%;
+   width: 40%;
+   border-radius: 5%;
+}
+#texto1, #texto2{
+    margin-left: 20px;
+    font-size: 93%;
+
+}
+
+#texto2{
+    text-align:center;
+}
