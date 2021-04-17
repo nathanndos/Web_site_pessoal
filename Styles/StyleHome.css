@@ -55,7 +55,8 @@ footer{
     width: 100%;
 }
 
-#apr1,#apr2{
+#apr1,#apr2,#apr3{
+    margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
     padding: 1%;
@@ -81,7 +82,7 @@ footer{
 }
 
 #apr2{
-    margin-top: 2%;
+  
 
 }
 #sub1{
@@ -100,7 +101,7 @@ footer{
     width: 40%;
 }
 #foto2{
-    margin-left: 5%;
+   margin-left: 5%;
    margin-top: 1%;
    width: 40%;
    border-radius: 5%;
@@ -114,3 +115,12 @@ footer{
 #texto2{
     text-align:center;
 }
+
+#apr3{
+    
+}
+#foto3{
+    width: 27%;
+    border-radius: 5%;
+}
+
