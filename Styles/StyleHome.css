@@ -55,7 +55,7 @@ footer{
     width: 100%;
 }
 
-#apr1,#apr2,#apr3{
+#apr1,#apr2,#apr3,#apr4{
     margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
@@ -121,6 +121,13 @@ footer{
 }
 #foto3{
     width: 27%;
+    border-radius: 5%;
+}
+#foto4{
+
+    margin-left: 5%;
+    width: 40%;
+    height: 50%;
     border-radius: 5%;
 }
 
