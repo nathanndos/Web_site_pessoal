@@ -9,7 +9,7 @@ html, body{
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(32, 44, 54);
-    color: rgb(228, 228, 228);
+    color: rgb(215, 221, 235);
 }
 #cabecalho{
     background: rgb(10, 16, 24);
@@ -28,7 +28,6 @@ footer{
     margin-top:50px;
 }
 #tituloPrincipal{
-
     margin-bottom: 50px;
     
 }
@@ -38,19 +37,29 @@ footer{
 .navClassMain{
     font-size: 15px;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 8px 20px;
     margin:10px ;
     color: rgb(207, 207, 207);
     background-color:rgb(10, 16, 24) ;
     transition-delay: 70ms;
     position: relative;
     top:0;
-    border-radius: 25% 5% 25% 5%;
+    border-radius: 20px
 
 }
 .navClassMain:hover{
-    background-color:rgb(106, 130, 151);
+    background:rgb(152, 191, 226);
     top:2px;
+    color: rgb(70, 69, 69);
+}
+
+button{
+    padding: 3px;
+    width: 5rem;
+    height:1.7rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    
 }
 
 #divMaster{
@@ -58,6 +67,7 @@ footer{
 }
 
 #apr1,#apr2,#apr3,#apr4{
+    align-items: center;
     margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
@@ -67,13 +77,14 @@ footer{
 }
 
 #apr1{
-
+    
 }
 
 #foto1{
+    border: 1px solid black;
     width: 25%;
     height: 70%;
-    border-radius: 5%;
+    border-radius: 3rem;
 }
 
 #texto1{
@@ -103,10 +114,11 @@ footer{
     width: 40%;
 }
 #foto2{
+    border: 1px solid black;
    margin-left: 5%;
    margin-top: 1%;
    width: 40%;
-   border-radius: 5%;
+   border-radius: 3rem;
 }
 #texto1, #texto2{
     margin-left: 20px;
@@ -119,17 +131,24 @@ footer{
 }
 
 #apr3{
-    
+   
+    align-items: center;
 }
 #foto3{
+    border: 1px solid black;
     width: 27%;
-    border-radius: 5%;
+    border-radius: 3rem;
+}
+#apr4{
+    
+    align-items: center;
+   
 }
 #foto4{
-
+    border: 1px solid black;
     margin-left: 5%;
     width: 40%;
-    height: 50%;
-    border-radius: 5%;
+    height: 60%;
+    border-radius: 3rem;
 }
 

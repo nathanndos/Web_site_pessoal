@@ -4,22 +4,54 @@
         <title>Nathan Silva</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="Styles/StyleHome.css"  >
+        <script>
+            var x = 0
+            function ChangeColor(){
+               
+                var _botao = document.getElementById("botaoLight")
+                var _body = document.getElementById("body")
+                var _cabecalho = document.getElementById("cabecalho")
+                var _navMain = document.getElementById("navMain")
+                var _rodape = document.getElementById("rodape")   
+
+                if(x ==1 ){
+
+                    _botao.innerText = 'Dark Mode';
+                    _cabecalho.style.background = 'rgb(10, 16, 24)';
+                    _body.style.color = 'rgb(215, 221, 235)';
+                    _body.style.background = 'rgb(32, 44, 54)';          
+                    _rodape.style.background = 'rgb(10, 16, 24)';
+                    
+                    x = 0
+                }else{  
+                    _botao.innerText = 'Light Mode';
+                    _cabecalho.style.background = 'rgb(135, 155, 182)';
+                    _body.style.color = 'rgb(43, 44, 44)';
+                    _body.style.background = 'rgb(195, 209, 221)'
+                    _rodape.style.background = 'rgb(135, 155, 182)';
+
+                    x = 1
+                }
+            }
+           
+        </script>
     </head>
 
-    <body>
+    <body id="body">
 
         <div id="cabecalho">
             <div id="tituloPrincipal">
-                <h1> Seja Bem vindo!</h1>
+                <h1 id="titulo"> Seja Bem vindo!</h1>
             </div>
 
-            <div id="menuPrincipal">
+            <div id="menuPrincipal" style="display: flex; justify-content: center;">
                 <nav id="navMain">
                     <a href="Home.html" class="navClassMain">Home</a>
                     <a href="/Pags/portifolio.html" class="navClassMain">Portifólio 3D</a>
                     <a href="/Pags/projetos.html" class="navClassMain">Projetos</a>
-                    <a href="/Pags/sobreMim.html" class="navClassMain">Sobre mim</a>                 
+                    <a href="/Pags/sobreMim.html" class="navClassMain">Sobre mim</a>                  
                 </nav>
+                <button onclick="ChangeColor()" id="botaoLight" style="margin-left: 10px;" >Dark Mode</button>    
             </div>
         </div>
         <div> 
@@ -48,7 +80,7 @@
                     </p>
             </div>
             <div id="apr2">
-                <div id="lista1">
+                <div id="lista1" >
                     <h3 id="sub2">Mas afinal o que será falado aqui?</h3>
                     <center><p style="margin-bottom: 5%; margin-top: 2%;"> Vai ter de tudo um pouco, então vamos la!</p></center>
 
@@ -70,7 +102,7 @@
             <div id="apr3">
                 <img id="foto3"src="https://cdnb.artstation.com/p/assets/images/images/033/372/851/large/nathan-silva-231.jpg?1609357583">
                 <div style = "margin-left:5%; margin-right: 15%;">
-                    <h3 style="text-align: center;">Se eu domino tudo isso que eu falei?</h3>
+                    <h3 style="text-align: center;margin-bottom: 2rem;">Se eu domino tudo isso que eu falei?</h3>
                     <p style="text-align: justify;">
                         AINDA NÃO. Mas eu estou aqui exatamente pra isso, quero melhor a cada dia.
                         Constantemente estou me inserindo na area de tecnologia, tentando compreender
@@ -78,16 +110,14 @@
                         certeza de que aprendi tudo que estudei.<br/><br/>
                         Em relação aos softwares que falerei sobre, também é importante descartar que não sei afundo tudo,
                         comecei a ler as documentações e entender todos os pequenos pontos, até mesmo os mais básicos. Com isso
-                        pretendo colocar por aqui traduções das funções desses softwares que muitas vezes nínguem encontra em tutorial.
-                        
-                        
+                        pretendo colocar por aqui traduções das funções desses softwares que muitas vezes nínguem encontra em tutorial.                                        
                     </p>     
                 </div>    
  
             </div>   
             <div id="apr4">
                 <div style="width: 40%;">
-                    <h3 style="text-align: center;margin-top: 0%;">Futuros projetos</h3>
+                    <h3 style="text-align: center;margin-top: 0%;margin-bottom: 1.5rem;">Futuros projetos</h3>
                     <p style="text-align: justify;"> Acho interessante já falar um pouco sobre oque pretendo fazer para os próximos projetos. Como ainda estou na dúvida
                         sobre hospedagem ou apenas um projeto, quero dizer que vou criar outros até que me sinta confortável e contente com 
                         o resultado alcançado.<br/><br/>
@@ -101,7 +131,7 @@
         </div>
     </body>
 
-    <footer style="font-size: 80%;">
+    <footer id="rodape"style="font-size: 80%;">
         Terms of use - Privacy Policy<br/>
         @2021 Nathan Silva
     </footer>
