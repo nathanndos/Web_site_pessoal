@@ -31,9 +31,7 @@ footer{
     margin-bottom: 50px;
     
 }
-#menuPrincipal{
-   
-}
+
 .navClassMain{
     font-size: 15px;
     text-decoration: none;
@@ -76,10 +74,6 @@ button{
     display: flex;
 }
 
-#apr1{
-    
-}
-
 #foto1{
     border: 1px solid black;
     width: 25%;
@@ -94,10 +88,6 @@ button{
 
 }
 
-#apr2{
-  
-
-}
 #sub1{
     text-align: center;
     font-size: 100%;
