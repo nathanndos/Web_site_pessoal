@@ -1,59 +1,32 @@
-.slider input{
-  display: none;
-}
-.slider {
-  display: block;
-  height: 293px;
-  width: 600px;
-  margin: auto;
-  margin-top: 20px;
-  position: relative;
+#bodyPhotos{
+  margin: 0 10%;
 }
 
-.slider li {
-  list-style: none;
-  position: absolute;
+#groupPhotos{
+  display: flex;
+ 
 }
-
-.slider img {
-  margin: auto;
-  height: 100%;
+#sectionConjPhotos{
+  margin-bottom: 3rem;
+}
+img{
   width: 100%;
-  vertical-align: top;
+  height: 200px;
+  padding: 3px;
+  border: 1x solid transparent;
+  border-radius: 6px;
 }
-.slider label {
-  background-color: rgb(200, 200, 200);
-  bottom: 30px;
-  cursor: pointer;
-  display: block;
-  height: 10px;
-  position: absolute;
-  width: 10px;
-  z-index: 10;
-  border-radius: 50%;
-}
-.slider li:nth-child(1) label{
-  left: 10px;
-}
-.slider li:nth-child(2) label{
-  left: 40px;
-}
-.slider li:nth-child(3) label{
-  left: 70px;
-}
-.slider li:nth-child(4) label{
-  left: 140px;
-}
-.slider li:nth-child(5) label{
-  left: 160px;
-}
-.slider img {
-  opacity: 0;
-  visibility: hidden;
-}
+h4{
+  margin-bottom: .5rem;
+  letter-spacing: .2rem;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color:#99c5f5 ;
+  background:rgb(21, 33, 44) ;
+  border: 1px solid transparent;
+  border-radius: 10px;
 
-.slider li input:checked ~ img {
-  opacity: 1;
-  visibility: visible;
-  z-index: 10;
 }
