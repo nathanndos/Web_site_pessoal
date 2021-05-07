@@ -24,9 +24,11 @@ h4{
   width: 100%;
   text-align: center;
   padding: 10px 0;
-  color:#99c5f5 ;
+  color:#b2c6dd ;
   background:rgb(21, 33, 44) ;
   border: 1px solid transparent;
   border-radius: 10px;
-
+}
+a:hover{
+  background: rgb(21, 33, 44) ;
 }
