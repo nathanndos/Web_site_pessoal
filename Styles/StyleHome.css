@@ -22,7 +22,7 @@ button{
 }
 
 #foto1{
-    border: 1px solid black;
+    border: 1px solid rgb(41, 41, 41);
     width: 25%;
     height: 70%;
     border-radius: 3rem;
@@ -42,7 +42,7 @@ button{
     width: 40%;
 }
 #foto2{
-    border: 1px solid black;
+    border: 1px solid rgb(41, 41, 41);
    margin-left: 5%;
    margin-top: 1%;
    width: 40%;
@@ -63,7 +63,7 @@ button{
     align-items: center;
 }
 #foto3{
-    border: 1px solid black;
+    border: 1px solid rgb(41, 41, 41);
     width: 27%;
     border-radius: 3rem;
 }
@@ -73,7 +73,7 @@ button{
    
 }
 #foto4{
-    border: 1px solid black;
+    border: 1px solid rgb(41, 41, 41);
     margin-left: 5%;
     width: 40%;
     height: 60%;
