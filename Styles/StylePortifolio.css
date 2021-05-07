@@ -4,14 +4,14 @@
 
 #groupPhotos{
   display: flex;
+  justify-content: space-between;
  
 }
 #sectionConjPhotos{
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 img{
-  width: 400px;
-  height: 200px;
+  width: 30%;
   padding: 3px;
   border: 1x solid transparent;
   border-radius: 6px;
