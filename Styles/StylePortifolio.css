@@ -4,18 +4,20 @@
 
 #groupPhotos{
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
  
 }
 #sectionConjPhotos{
   margin-bottom: 4rem;
 }
 img{
-  width: 30%;
+  width: 33%;
   padding: 3px;
   border: 1x solid transparent;
   border-radius: 6px;
+
 }
+
 h4{
   margin-bottom: .5rem;
   letter-spacing: .2rem;
@@ -28,6 +30,8 @@ h4{
   background:rgb(21, 33, 44) ;
   border: 1px solid transparent;
   border-radius: 10px;
+
+  box-shadow:3px 2px 5px rgb(15, 24, 32) ;
 }
 a:hover{
   background: rgb(21, 33, 44) ;

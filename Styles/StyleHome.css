@@ -20,6 +20,9 @@ button{
     width: 80%;
     display: flex;
 }
+img{
+    box-shadow: 5px 7px 10px  rgb(15, 24, 32) ;;
+}
 
 #foto1{
     border: 1px solid rgb(41, 41, 41);
