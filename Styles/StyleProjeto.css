@@ -1,8 +1,58 @@
 main{
     margin: 0 8%;
 }
+table{
+    font-family: Segoe UI, sans-serif;
+}
 
 td{
-    border: 1px solid lightgrey;
-    padding: 10px;
+    border: 1px solid rgb(46, 63, 77);
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+.titleProjects{
+    color: rgb(5, 128, 228);
+    font-size: 20px;
+
+    font-weight: 600;   
+}
+.titleProjects:hover {text-decoration:underline rgb(5, 128, 228);}
+a {text-decoration: none;}
+
+
+.paragraphProjects{
+    font-size: 16px;
+    padding-top: 1rem;
+    color: rgb(221, 221, 221);
+}
+.languageProgram{
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+    padding-left: .5rem;
+}
+.circleLanguage{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;   
+}
+
+.typeAndCircle{
+    padding-top: 1rem;
+    display: flex;
+
+    align-items: center;
+}
+
+#buttonFollow{
+    margin: 0 auto;
+    width:50%;
+    padding:7px 5px; 
+    color:#fff;
+    font-weight: 600;
+    background:rgb(46, 65, 82);
+    border: 1px solid rgb(46, 33, 33);
+    border-radius: 1rem;
+}
+#buttonFollow:hover{
+    filter: brightness(70%);
 }

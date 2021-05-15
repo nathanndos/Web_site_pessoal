@@ -9,9 +9,10 @@ html, body{
 }
 
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Segoe UI,sans-serif,Verdana, Geneva, Tahoma ;
     background-color: rgb(32, 44, 54);
     color: rgb(215, 221, 235);
+    font-size: 1.1rem
 }
 #tituloPrincipal{
     margin-bottom: 50px;
@@ -53,6 +54,8 @@ body{
     margin-right: 15%;
     margin-top: 2%;
     margin-bottom: 3%;
+
+    color: rgb(243, 243, 243);
 }
 
 footer{
