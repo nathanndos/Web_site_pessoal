@@ -5,37 +5,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="Styles/StyleHome.css"  >
         <link rel="stylesheet" type="text/css" href="Styles/StyleGlobal.css"  >
-        <script>
-            var x = 0
-            function ChangeColor(){
-               
-                var _botao = document.getElementById("botaoLight")
-                var _body = document.getElementById("body")
-                var _cabecalho = document.getElementById("cabecalho")
-                var _navMain = document.getElementById("navMain")
-                var _rodape = document.getElementById("rodape")   
 
-                if(x ==1 ){
-
-                    _botao.innerText = 'Dark Mode';
-                    _cabecalho.style.background = 'rgb(10, 16, 24)';
-                    _body.style.color = 'rgb(215, 221, 235)';
-                    _body.style.background = 'rgb(32, 44, 54)';          
-                    _rodape.style.background = 'rgb(10, 16, 24)';
-                    
-                    x = 0
-                }else{  
-                    _botao.innerText = 'Light Mode';
-                    _cabecalho.style.background = 'rgb(135, 155, 182)';
-                    _body.style.color = 'rgb(43, 44, 44)';
-                    _body.style.background = 'rgb(195, 209, 221)'
-                    _rodape.style.background = 'rgb(135, 155, 182)';
-
-                    x = 1
-                }
-            }
-           
-        </script>
     </head>
 
     <body>
@@ -48,10 +18,9 @@
                 <nav id="navMain">
                     <a href="Home.html" class="navClassMain">Home</a>
                     <a href="Pags/portifolio.html" class="navClassMain">Portifólio 3D</a>
-                    <a href="Pags/projetos.html" class="navClassMain">Projetos</a>
-                    <a href="Pags/sobreMim.html" class="navClassMain">Sobre mim</a>                  
+                    <a href="Pags/projetos.html" class="navClassMain">Projetos</a>               
                 </nav>
-                <button onclick="ChangeColor()" id="botaoLight" style="margin-left: 10px;" >Dark Mode</button>    
+
             </div>
         </div>
         <div> 
